@@ -1,0 +1,48 @@
+<BoxLayout>:
+    bill_of_lading_label: bill_of_lading_label
+    capture_button: capture_button
+    fuel_receipts_label: fuel_receipts_label
+    fuel_receipts_chooser: fuel_receipts_chooser
+    repair_receipts_label: repair_receipts_label
+    repair_receipts_chooser: repair_receipts_chooser
+    upload_button: upload_button
+
+    orientation: 'vertical'
+    padding: 10
+    spacing: 10
+
+    Label:
+        id: bill_of_lading_label
+        text: 'Bill of Lading:'
+
+    Button:
+        id: capture_button
+        text: 'Capture Bill of Lading'
+        size_hint_y: None
+        height: '48dp'
+
+    Label:
+        id: fuel_receipts_label
+        text: 'Fuel Receipts:'
+
+    Button:
+        id: fuel_receipts_chooser
+        text: 'Select Fuel Receipts'
+        size_hint_y: None
+        height: '48dp'
+
+    Label:
+        id: repair_receipts_label
+        text: 'Repair Receipts:'
+
+    Button:
+        id: repair_receipts_chooser
+        text: 'Select Repair Receipts'
+        size_hint_y: None
+        height: '48dp'
+
+    Button:
+        id: upload_button
+        text: 'Upload'
+        size_hint_y: None
+        height: '48dp'
